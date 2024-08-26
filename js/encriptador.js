@@ -56,7 +56,7 @@ btnEncriptar.addEventListener("click", e => {
         
         
     }   
-    console.log(btncopy); // Esto debería mostrar el elemento en la consola
+    console.log(btncopy); 
 
     
     });
@@ -111,7 +111,7 @@ btnDesencriptar.addEventListener("click", e => {
         
         
     }   
-    console.log(btncopy); // Esto debería mostrar el elemento en la consola
+    console.log(btncopy); 
 
     
     });
