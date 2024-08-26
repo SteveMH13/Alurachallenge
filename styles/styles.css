@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --color-primario: #5F5D9C;
+    --color-secundario: #6196A6;
+    --color-terciario: #A4CE95;
+    --color-cuarto: #343A40;
+    --color-quinto: #495057;
+
+    --fuente-regular:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    --fuente-bold: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color-primario);
+
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header {
+    width: 60%;
+    margin-bottom: 5rem;
+    margin-top: 2%;
+
+}
+
+.cuadro {
+    width: 100%;
+    max-width: 685px;
+    height: 48dvh;
+    border-color: transparent;
+    margin-bottom: 3rem;
+    resize: none;
+    transition: none;
+    font-size: 3rem;
+    color: var(--color-cuarto);
+    font-family: var(--fuente-regular);
+    border-radius: 10px;
+    background-color: var(--color-terciario);
+    
+}
+
+::placeholder {
+    font-size: 3rem;
+    resize: none;
+    color: var(--color-cuarto);
+    font-family: var(--fuente-regular);
+    color: var(--color-cuarto);
+
+}
+
+.cuadro:focus {
+    font-size: 3rem;
+    outline: none;
+    color: var(--color-cuarto);
+}
+
+.botones__eyd {
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+    height: 67px;
+    padding: 2rem ;
+    font-size: 1.6rem;
+    flex-wrap: wrap;
+
+    
+    
+}
+
+.texto__alerta{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-family: var(--fuente-regular);
+    
+}
+.botones__ed__a{
+    border-radius: 24px;
+    background-color: var(--color-secundario);
+    color: white;
+    font-weight: 600;
+    border: 1px solid var(--color-secundario);
+    font-family: var(--fuente-regular);
+    transition: background-color 0.3s;
+    
+    
+    
+}
+.botones__ed__b{
+    border-radius: 24px;
+    background-color: var(--color-terciario);
+    color: var(--color-secundario);
+    font-weight: 600;
+    border: 1px solid var(--color-secundario);
+    font-family: var(--fuente-regular);
+    transition: background-color 0.3s;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    height: 44.85rem;
+    border-radius: 32px;
+    max-width: 50rem;
+    width: 100%;
+    border: 1px solid;
+    padding: 6rem;
+    overflow: hidden;
+    background-color: var(--color-terciario);
+    
+}
+.btn__copy {
+    background-color: var(--color-secundario);
+    color: white;
+    border: 1px solid var(--color-secundario);
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: var(--fuente-regular);
+    transition: background-color 0.3s;
+    position: relative;
+    top: -28px;
+    gap: 20px;
+    height: 67px;
+    padding: 1rem ;
+    font-size: 1.6rem;
+    
+     
+    
+   
+    
+    
+   
+}
+.btn__copy:hover {
+    background-color: gold; 
+}
+
+button {
+    width: 328px;
+
+
+}
+button:hover{
+    background-color: gold ;
+
+}
+
+.msgtitle{
+    font-size: 24px;
+    color: var(--color-cuarto);
+    text-align: center;
+    font-family: var(--fuente-regular);
+    
+}
+.msgtext{
+    font-size: 16px;
+    color: var(--color-quinto);
+    text-align: center;
+    font-family: var(--fuente-regular);
+}
+
+
+
+@media (max-width: 1405px) {
+    main{
+        
+        flex-direction: column;
+        padding: 15%;
+        
+
+    }
+    .cuadro{
+    max-width: 400px; }
+    .left{
+        max-width: 250px; }
+    
+    .botones__eyd {
+        height: 15dvh;
+    
+        
+        
+       
+}
+
+}
