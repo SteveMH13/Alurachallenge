@@ -55,3 +55,4 @@ VISTA CELULAR:
 ![Imagen de WhatsApp 2024-08-26 a las 13 04 39_5834b7a6](https://github.com/user-attachments/assets/27246db0-edce-4994-b617-4902f039ba0e)
 
 
+link vercel : https://alurachallenge-gamma.vercel.app/
